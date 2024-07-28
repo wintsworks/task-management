@@ -1,0 +1,23 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.task-component {
+    background-color: #d3d3d3;
+    padding: 10px;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    h3 {
+        font-size: 1.2em;
+        flex: 0 0 100%;
+    }
+    p {
+        flex: 0 0 100%;
+    }
+
+}
+
+.highlighted {
+    background-color: black;
+}
